@@ -85,7 +85,7 @@ filter_by_time()
 for _ in range(2):
     video_location()
     pag.scroll(-6)
-    sleep(1)
+    sleep(2)
     if clickable():
         enter_video()
         comment()
@@ -93,9 +93,12 @@ for _ in range(2):
         driver.find_element_by_id('placeholder-area').click()
         # Send the keys to the input field
         driver.find_element_by_id('contenteditable-root').send_keys('hola')
+        pag.hotkey('command', 'ENTER')
         # driver.find_element_by_xpath('//input[@id="contenteditable-root"]').send_keys('hola')
         sleep(1)
-        driver.find_element_by_xpath('//button[text()="Comentar"]')
+        # Find 'Comment' button
+        # driver.find_element_by_xpath('//button[text()="Comentar"]')
+        # driver.find_element_by_css_selector('style-scope ytd-button-renderer style-primary size-default').click()
         sleep(1)
         go_back()
         sleep(1)
