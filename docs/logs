@@ -1,5 +1,0 @@
-Steps that have been taken:
-
-1. Install chromedriver from brew with: brew cask install chromedriver
-2. Go to path of chromedriver: /usr/local/Caskroom/chromedriver/8.<version> and run:
-    xattr -d com.apple.quarantine chromedriver
