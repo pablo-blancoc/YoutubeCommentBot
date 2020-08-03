@@ -3,15 +3,15 @@ from selenium import webdriver
 import pyautogui as pag
 import random
 
-ACCOUNT_EMAIL = "goobadoops@gmail.com"
-ACCOUNT_PASSWORD = "ScoobyDoPapa1"
-
 ######
 # Fields to fill
-WORD_TO_SEARCH = "espacio"
-VIDEOS_TO_COMMENT = 30
-COMMENT = "hola"
+ACCOUNT_EMAIL = "youtube account mail"
+ACCOUNT_PASSWORD = "youtube account password"
+WORD_TO_SEARCH = "type here the word that's going to be searched in YouTube search bar"
+VIDEOS_TO_COMMENT = 30 # Number of times the bot is going to try to comment a video
+COMMENT = "type in here the comment that the bot is going to write on every comment it makes"
 ######
+
 
 # FUNCTIONS
 def delay(n):
