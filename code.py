@@ -8,7 +8,7 @@ import random
 ACCOUNT_EMAIL = "youtube account mail"
 ACCOUNT_PASSWORD = "youtube account password"
 WORD_TO_SEARCH = "type here the word that's going to be searched in YouTube search bar"
-VIDEOS_TO_COMMENT = 30 # Number of times the bot is going to try to comment a video
+VIDEOS_TO_COMMENT = 30  # Number of times the bot is going to try to comment a video
 COMMENT = "type in here the comment that the bot is going to write on every comment it makes"
 ######
 
